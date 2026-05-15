@@ -1,8 +1,7 @@
-package com.example.demo.dto;
+package com.example.demo.exception;
 
 
-import com.example.demo.exception.ResourceNotFoundException;
-import com.example.demo.exception.UserAlreadyExistsException;
+import com.example.demo.dto.ErrorResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;
